@@ -1,0 +1,78 @@
+.body{
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+
+.signup_page{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(126, 165, 239);
+    border-radius: 16px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.finance-img{
+    width: 35vw;
+    height: 80vh;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 14px
+    
+}
+
+.right-side-form{
+    display: inline-block;
+    align-items: center;
+}
+
+.signup-text, .login-text{
+    text-align: center;
+}
+
+.d-grid{
+    
+    display: flex;
+    align-items: center;
+}
+
+.link-text{
+    display: inline-flex;
+    justify-content: center;
+    /* width: fit-content; */
+}
+
+.signup_form{
+    display:none;
+
+}
+
+.login_page{
+    display:block;
+}
+
+.google_icon, .fb_icon, .github_icon{
+    width: 1.5rem;
+    /* margin:9px;     */
+}
+
+
+
+
+a, .logo-image{
+    width: 2px !important;
+    height:3px !important;
+
+}
+
+.google_icon:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .left_image{
+        display: none;
+    }
+    
+}
